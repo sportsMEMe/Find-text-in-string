@@ -5,11 +5,11 @@ This application is designed to...
 The application loads into the database from the input text file (which may contain text in English and Russian, UTF-8 encoding) all words that meet the following criteria:
      (a) The length of the word is not less than 3 and not more than 20 characters;
   	(b) the word is mentioned at least 4 times in the current input file.
-3.	Loading can be performed multiple times. The application does not delete existing data from the database, but augments it.
-4.	In the database for each saved word, the number of its mentions summarized for all uploaded files should be stored.
-5. the text file fed to the input is UTF-8. The file may contain any letters (Latin and Cyrillic) and spaces. The file can contain more than one line. The file can be up to 100 MB in size.
-6. Automatic creation and initialization of the database.
-7. MS SQL Server database
+2.	Loading can be performed multiple times. The application does not delete existing data from the database, but augments it.
+3.	In the database for each saved word, the number of its mentions summarized for all uploaded files should be stored.
+4. the text file fed to the input is UTF-8. The file may contain any letters (Latin and Cyrillic) and spaces. The file can contain more than one line. The file can be up to 100 MB in size.
+5. Automatic creation and initialization of the database.
+6. MS SQL Server database
 
 ============================================
 
